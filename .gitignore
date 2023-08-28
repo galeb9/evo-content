@@ -1,0 +1,49 @@
+# Ignore system and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore dependency directories
+/vendor/
+/node_modules/
+
+# Ignore environment configuration files
+.env
+.env.local
+.env.*.local
+
+# Ignore log files
+/log/
+*.log
+
+# Ignore compiled or build files
+/build/
+/dist/
+*.phar
+
+# Ignore user-specific files
+*.bak
+*.tmp
+*.DS_Store
+Thumbs.db
+
+# Ignore Composer's generated files
+/composer.phar
+/vendor/
+
+# Ignore PHPUnit's generated files
+/phpunit.xml
+
+# Ignore PHPStorm project files
+*.iml
+.idea/
+
+# Ignore database files
+*.sql
+*.sqlite
+*.sqlite3
+
+# Ignore cache and temporary files
+/cache/
+/temp/
